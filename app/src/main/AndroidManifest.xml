@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spcreations.kannadakali">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_kannadakali"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.spcreations.kannadakali.ColorsActivity"
+            android:label="@string/category_colors"
+            android:parentActivityName="com.spcreations.kannadakali.MainActivity"/>
+        <activity
+            android:name="com.spcreations.kannadakali.PhrasesActivity"
+            android:label="@string/category_phrases"
+            android:parentActivityName="com.spcreations.kannadakali.MainActivity"/>
+        <activity
+            android:name="com.spcreations.kannadakali.DaysActivity"
+            android:label="@string/category_days"
+            android:parentActivityName="com.spcreations.kannadakali.MainActivity"/>
+        <activity
+            android:name="com.spcreations.kannadakali.FruitsActivity"
+            android:label="@string/category_fruits"
+            android:parentActivityName="com.spcreations.kannadakali.MainActivity"/>
+        <activity
+            android:name="com.spcreations.kannadakali.FlowersActivity"
+            android:label="@string/category_flowers"
+            android:parentActivityName="com.spcreations.kannadakali.MainActivity"/>
+        <activity
+            android:name="com.spcreations.kannadakali.FamilyActivity"
+            android:label="@string/category_family"
+            android:parentActivityName="com.spcreations.kannadakali.MainActivity"/>
+        <activity
+            android:name="com.spcreations.kannadakali.NumbersActivity"
+            android:label="@string/category_numbers"
+            android:parentActivityName="com.spcreations.kannadakali.MainActivity"/>
+        <activity android:name="com.spcreations.kannadakali.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
